@@ -1,0 +1,130 @@
+html, body{
+    margin: 0;
+    clear: left;
+    overflow-x: scroll;
+}
+header{
+    background: green;
+    color:white;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    margin-top: 0%;
+}
+#logo{
+    width: 125px;
+    position: fixed;
+    margin-top: 0;
+    overflow: hidden;
+}
+#logodiv {
+    width: 100%;
+    position: relative;
+
+     
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+    position: fixed;
+    padding-left: 30%;
+    width: 100%;
+}
+li{ float: left;
+    padding:15px 10px 10px 10px ;
+}
+li:hover {
+    background-color:gainsboro ;
+}
+
+#imagenfundo{
+    background: url(img/imgfundo02.jpg);
+    height: 100% ;
+    text-align: center;
+    background-size: cover;
+}
+#título{
+    color: white;
+    padding-top: 30%;
+    font-size: 60px;
+}
+#subtítulo{
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size-adjust: inherit;
+    padding-top: 10;
+}
+#acao{
+    color: white;
+    border: 1px white solid; 
+    padding: 10px 20px 10px 20px;
+}
+.icone{
+    width: 400px;
+    float: left;
+    
+}
+#definicao{
+    background-color: rgb(208, 224, 224);
+    padding: 20px;
+    float: left;
+}
+#saude{
+    padding: 20px;
+    float: left;
+    text-align: justify;
+}
+#sobre{
+    background-color: rgb(219, 243, 243);
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+#bemestar{
+    padding: 20px;
+    float: left;
+    text-align: justify;   
+}
+.alinhar{
+    float:left;
+    width: 150%;
+    padding: 0 5%
+}
+.dois{
+    width: 40%;
+}
+.direita{
+    float: right;
+    width: 100%;
+}
+footer{
+ background: green;
+ float: left;   
+ width: 100%;
+}
+#qualidade{
+    padding: 20px;
+
+    text-align: justify;
+}
+.foto{
+    width: 70px;
+}
+@media all and (max-width:768px) {
+#menu
+{visibility:hidden;}
+
+}
