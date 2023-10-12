@@ -41,7 +41,7 @@ li:hover {
 }
 
 #imagenfundo{
-    background: url(img/imgfundo02.jpg);
+    background: url(imgfundo02.jpg);
     height: 100% ;
     text-align: center;
     background-size: cover;
@@ -81,7 +81,7 @@ li:hover {
 #sobre{
     background-color: rgb(219, 243, 243);
 }
-.coluna{
+.coluna dois{
     float: left;
     padding: 0 5%;
     position: relative;
@@ -95,7 +95,7 @@ li:hover {
 }
 #bemestar{
     padding: 20px;
-    float: left;
+    float: right;
     text-align: justify;   
 }
 .alinhar{
@@ -103,8 +103,12 @@ li:hover {
     width: 150%;
     padding: 0 5%
 }
-.dois{
-    width: 40%;
+.movee{
+    width: 550px;
+    float: left;
+    padding: 0 10%;
+    margin-top: 20px;
+
 }
 .direita{
     float: right;
@@ -117,12 +121,12 @@ footer{
 }
 #qualidade{
     padding: 20px;
-
     text-align: justify;
 }
 .foto{
     width: 70px;
 }
+
 @media all and (max-width:768px) {
 #menu
 {visibility:hidden;}
